@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/wwitzel/code/smithers/smithers/tests'
 let g:netrw_dirhist_2='/Users/wwitzel/code/smithers/smithers'
+let g:netrw_dirhist_3='/Users/wwitzel/code/stockpot-code/alembic'
+let g:netrw_dirhist_4='/Users/wwitzel/code/stockpot-code'
+let g:netrw_dirhist_5='/Users/wwitzel/code/riotoustools'
+let g:netrw_dirhist_6='/Users/wwitzel/code/pastefest/pastefest/pastefest/templates'
+let g:netrw_dirhist_7='/Users/wwitzel/code/stockpot/stockpot/views'
+let g:netrw_dirhist_8='/Users/wwitzel/code/pyramid/docs'

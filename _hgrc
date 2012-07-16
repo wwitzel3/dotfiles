@@ -1,2 +1,4 @@
 [ui]
-username = sontek <sontek@gmail.com>
+username = Wayne Witzel III <wwitzel3@gmail.com>
+remotecmd = /home/wwitzel3/.virtualenvs/default/bin/hg
+
