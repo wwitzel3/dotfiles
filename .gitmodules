@@ -2,7 +2,7 @@
 	path = _vim/bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 [submodule "_vim/bundle/snipmate"]
-	path = _vim/bundle/snipmate
+path = _vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
 [submodule "_vim/bundle/surround"]
 	path = _vim/bundle/surround
@@ -46,8 +46,8 @@
 [submodule "_vim/bundle/acp"]
 	path = _vim/bundle/acp
 	url = https://github.com/vim-scripts/AutoComplPop.git
-[submodule "_vim/bundle/solarized"]
-	path = _vim/bundle/solarized
+[submodule "_vim/bundle/vim-colors-solarized"]
+	path = _vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "_vim/bundle/markdown"]
 	path = _vim/bundle/markdown

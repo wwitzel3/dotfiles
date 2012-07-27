@@ -137,7 +137,7 @@ call pathogen#helptags()
 " ==========================================================
 " Basic Settings
 " ==========================================================
-syntax on                     " syntax highlighing
+syntax enable                     " syntax highlighing
 filetype on                   " try to detect filetypes
 filetype plugin indent on     " enable loading indent file for filetype
 set number                    " Display line numbers
@@ -220,7 +220,11 @@ set laststatus=2            " Always show statusline, even if only 1 window.
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
 " displays tabs with :set list & displays when a line runs off-screen
-set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
+" set listchars=tab:>-,trail:-,precedes:<,extends:> "
+" set listchars=tab:>-,eol:^,trail:-,precedes:<,extends:> "
+set listchars=tab:>-,trail:-,precedes:<,extends:>
+
+
 set list
 
 """ Searching and Patterns
@@ -231,16 +235,7 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 """" Display
-if has("gui_running")
-    colorscheme desert
-    " Remove menu bar
-    set guioptions-=m
-
-    " Remove toolbar
-    set guioptions-=T
-else
-    colorscheme torte
-endif
+colorscheme solarized
 
 " Paste from clipboard
 map <leader>p "+p

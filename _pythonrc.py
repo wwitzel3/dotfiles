@@ -9,7 +9,6 @@ import os
 
 try:
     import readline
-    import rlcompleter
     import atexit
 except ImportError:
     print("You need readline, rlcompleter, and atexit")
