@@ -235,6 +235,7 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 """" Display
+set t_Co=256
 colorscheme solarized
 
 " Paste from clipboard
